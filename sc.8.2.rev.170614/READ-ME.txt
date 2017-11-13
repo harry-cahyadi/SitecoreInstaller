@@ -1,0 +1,23 @@
+About the installer:
+The installer is going to help you set up your Sitecore development env by automatically set the below things up:
+- IIS Website
+- Install your license file
+- Sitecore databases
+- Install all modules specified in the config file
+
+Instructions:
+1. Open the settings.config file, modify it to suit your need and save it. Please make sure you double check all of the settings with [REQUIRED] label on top of it.
+
+2. Extract the 7zip files (5 files) to get the installation package file (you need to point the "InstallationPackageFilePath" param in the settings.config to this file).
+
+2. Open powershell console as admistrator.
+
+3. Set the context of the execution to this folder.
+
+4. Type .\install.ps1 and press enter.
+
+5. Enter the password of your database administrator user when prompted.
+
+6. If you have previously registered the Sitecore repository, then you might get an error, but the error should not stop the execution.
+
+7. Get a cup of coffee/tea and watch the screen. The process will take a little bit of time due to database installation and modules installation (if any).

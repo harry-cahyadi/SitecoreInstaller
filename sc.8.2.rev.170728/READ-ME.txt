@@ -14,12 +14,10 @@ Instructions:
 
 3. Set the context of the execution to this folder.
 
-4. Type .\ Install.ps1 and press enter.
+4. Type .\install.ps1 and press enter.
 
-5. Type Install and press enter.
+5. Enter the password of your database administrator user when prompted.
 
-6. Enter the password of your database administrator user when prompted.
+6. If you have previously registered the Sitecore repository, then you might get an error, but the error should not stop the execution.
 
-7. If you have previously registered the Sitecore repository, then you might get an error, but the error should not stop the execution.
-
-8. Get a cup of coffee/tea and watch the screen. The process will take a little bit of time due to database installation and modules installation (if any).
+7. Get a cup of coffee/tea and watch the screen. The process will take a little bit of time due to database installation and modules installation (if any).

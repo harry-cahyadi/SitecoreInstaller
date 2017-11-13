@@ -1,0 +1,12 @@
+About:
+The tool is going to help you to create a Sitecore Installation Framework package for a specific Sitecore version.
+The tool has been tested and confirmed working for Sitecore Azure Toolkit 2.0.0 rev.171010
+
+Instructions:
+1. Open the sat-settings.config file, modify it to suit your need and save it. Please make sure you double check all of the settings with [REQUIRED] label on top of it.Open powershell console as admistrator.
+
+2. Set the context of the execution to this folder.
+
+3. Type .\CreatePackage.ps1 and press enter.
+
+4. The package will be created in the path you specified in the settings file ("PackageOutputFolderPath" param)

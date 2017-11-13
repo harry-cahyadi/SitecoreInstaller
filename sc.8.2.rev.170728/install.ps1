@@ -277,3 +277,5 @@ function Get-ConfigParam([string] $name) {
 function Get-ConfigPackages() {
     return Select-Xml "/configuration/packages/package/text()" $xml
 }
+
+Install
